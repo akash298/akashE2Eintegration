@@ -11,7 +11,7 @@ public class TC_002 {
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.findElementById("email").sendKeys("akash");
-		driver.close();
+		
 	}
 
 }
